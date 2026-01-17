@@ -1,0 +1,34 @@
+html {
+    background-color: black;
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+.input,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.part_left {
+    flex: 1;
+    background-image: url("imgs/unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.part_right  {
+    flex: 2;
+    background-color: white;
+}
+
