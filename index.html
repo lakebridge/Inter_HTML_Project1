@@ -28,26 +28,50 @@
         
         <form action="https://submit.com" method="post">
 
+            <h2>Let's do this</h2>
+
             <fieldset>
-                <legend></legend>
+            
+            <div class="field">
 
-            <label for="firstname">First Name</label>
-            <input type="text" id="firstname" required>
+            <div><label for="firstname">First Name</label></div>
+            <input type="text" id="firstname">
 
-            <label for="lastname">Last Name</label>
+            </div>
+
+            <div class="field">
+            <div><label for="lastname">Last Name</label></div>
             <input type="text" id="lastname">
+            </div>
+            
 
-            <label for="email">Email</label>
-            <input type="email" id="email" required>
+            <div class="field">
 
-            <label for="phone">Phone</label>
+            <div><label for="email">Email</label></div>
+            <input type="email" id="email">
+            </div>
+
+            <div class="field">
+
+            <div><label for="phone">Phone</label></div>
             <input type="tel" id="phone">
 
-            <label for="password">Email</label>
-            <input type="email" id="password" required minlength="8">
+            </div>
 
-            <label for="confirmpassword">Phone</label>
-            <input type="password" id="confirmpassword" required>
+            
+            <div class="field">
+
+            <div><label for="password">Password</label></div>
+            <input type="email" id="password" minlength="8" required>
+
+            </div>
+
+            <div class="field">
+
+            <div><label for="confirmpassword">Confirm Password</label></div>
+            <input type="password" id="confirmpassword" minlength="8" required>
+
+            </div>
             
             </fieldset>
 
@@ -55,7 +79,7 @@
 
         <div class="section3">
             <button id="form" action="submit">Create Account</button>
-            Already have an account? <a href="login.html">Login here</a>
+            <h3>Already have an account? <a href="login.html">Login here</a></h3>
         </div>
         
 
