@@ -12,17 +12,50 @@
 <body>
     <div class="container">
         <div class="part_left">
-            <!-- <img src="imgs/unsplash.jpg"> -->
+            <div class="login">
+                <img src="imgs/odin-lined.png">
+                ODIN
+            </div>
         </div>
         
         <div class="part_right">
-        <form>
+
+            <div class="section1">
+            <h1>This is not a real online service! You know you need something like this in your life to help realize your deepest dreams. 
+                <br> Sign up now to get started</h1>
+            <h1>You <i>know</i> you want to.</h1>
+            </div>
+        
+        <form action="https://submit.com" method="post">
+
         <fieldset>
-            <legend>This is not a real online service! You know you need something like this in your life to help realize your deepest dreams. 
-                <br> Sign up now to get started</legend>
+            <legend></legend>
         </fieldset>
 
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" required>
+
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone">
+
+        <label for="password">Email</label>
+        <input type="email" id="password" required minlength="8">
+
+        <label for="confirmpassword">Phone</label>
+        <input type="password" id="confirmpassword" required>
+
         </form>
+
+        <div class="section3">
+            <button id="form" action="submit">Create Account</button>
+            Already have an account? <a href="login.html">Login here</a>
+        </div>
         </div>
     </div>
 </body>
