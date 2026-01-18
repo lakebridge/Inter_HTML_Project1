@@ -22,16 +22,26 @@ select {
 }
 
 .part_left {
-    flex: 1;
+    display: flex;
+    box-sizing: border-box;
+    flex: 1.2;
     background-image: url("imgs/unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
+.section1 {
+    font-family: system-ui;
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 12%;
+
+}
 .part_right  {
     flex: 2;
     background-color: white;
+    padding: 16px;
 }
 
 .skranji-regular {
@@ -55,6 +65,17 @@ select {
     font-display: swap;
 }
 
-.login {
+.logo {
+    display: flex;
     font-family: Norse;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: pink solid 2px;
+    font-size: 90px;
+    margin-top: 200px;
+    padding: 10px;
 }
